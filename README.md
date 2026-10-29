@@ -51,3 +51,10 @@ Associated manuscript: in preparation.
 
 Research project developed as part of a pancreatic cancer molecular imaging and bioinformatics investigation.
 
+## Author
+
+Romina Karampour
+
+Technical University of Munich (TUM), Germany
+
+
