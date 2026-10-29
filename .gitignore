@@ -1,0 +1,20 @@
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Mac files
+.DS_Store
+
+# Raw datasets and generated results
+data/
+results/
+
+# Review this folder before publishing
+PDAC_DepMap/
+
+# Private settings
+.env
+.env.*
+*.key
