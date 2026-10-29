@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # STEP 1: Find the proteomics file
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 protein_file = project / "data" / "harmonized_Sanger_MS_2022.csv"
 
 # STEP 2: Open the proteomics table

@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import linregress
 
 # Locate our project files
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 data = project / "data"
 results = project / "results"
 

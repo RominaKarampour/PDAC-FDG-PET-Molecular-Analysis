@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # STEP 1: Find our project folder
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 
 # STEP 2: Locate the Sanger proteomics file
 protein_file = project / "data" / "harmonized_Sanger_MS_2022.csv"

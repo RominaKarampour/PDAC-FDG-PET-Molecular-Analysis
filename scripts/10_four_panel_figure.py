@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # PATHS
 # --------------------------------------------------
 
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 results = project / "results"
 
 # --------------------------------------------------

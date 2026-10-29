@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # 1. Find our project folders
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 data = project / "data"
 results = project / "results"
 

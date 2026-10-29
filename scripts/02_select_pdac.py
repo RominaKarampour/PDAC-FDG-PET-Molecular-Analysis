@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # 1. Locate our project and data folder
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 data_folder = project / "data"
 
 # 2. Open the cell-line information file

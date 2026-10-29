@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # 1. Locate our project and load the results
 # --------------------------------------------------
 
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 results = project / "results"
 
 rna = pd.read_csv(

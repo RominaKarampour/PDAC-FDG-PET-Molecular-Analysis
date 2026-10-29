@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # Find the folder where our project is stored
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 
 # Find the RNA data file inside the data folder
 rna_file = project / "data" / "OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv"

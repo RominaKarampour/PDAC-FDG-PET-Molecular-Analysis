@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 # STEP 1: Locate our files
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 data = project / "data"
 results = project / "results"
 

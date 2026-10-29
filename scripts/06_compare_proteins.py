@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 # STEP 1: Locate the project
-project = Path.home() / "Desktop" / "PDAC-FDG-PET-Molecular-Analysis"
+project = Path(__file__).resolve().parent.parent
 
 # STEP 2: Open the proteomics dataset
 proteins = pd.read_csv(
