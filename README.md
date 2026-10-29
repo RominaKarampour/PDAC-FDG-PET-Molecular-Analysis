@@ -42,7 +42,33 @@ Additional exploratory analyses evaluate GLUT1 and HK2 protein abundance relativ
 ## Reproducibility
 
 The analysis scripts are provided for transparency and reproducibility. Instructions for obtaining and preparing the source datasets will be expanded in a future update.
+### Software installation
 
+Python 3 is required.
+
+To download the repository:
+
+```bash
+git clone https://github.com/RominaKarampour/PDAC-FDG-PET-Molecular-Analysis.git
+cd PDAC-FDG-PET-Molecular-Analysis
+```
+
+To create a Python virtual environment on macOS or Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+To install the required packages:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+The original RNA and proteomics datasets are not included in this repository. They must be downloaded from their respective providers before running the analysis scripts.
+
+Detailed data preparation and script execution instructions will be added in a future update.
 ## Publication
 
 Associated manuscript: in preparation.
